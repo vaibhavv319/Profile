@@ -29,3 +29,5 @@ sections.forEach(sec => {
   sec.style.transform = "translateY(50px)";
   sec.style.transition = "0.6s";
 });
+
+window.dispatchEvent(new Event("scroll"));
