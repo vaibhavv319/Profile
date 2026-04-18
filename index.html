@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vaibhav Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-socials">
+    <a href="https://github.com/vaibhavv319" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://leetcode.com/u/vaibhavv319/" target="_blank">
+      <i class="fas fa-code"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/vaibhav-singh-4687b7313?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+</nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Hello, I'm <span>Vaibhav Singh</span></h1>
+    <p>Aspiring Software Engineer | DSA Enthusiast</p>
+  </div>
+  
+  <div class="hero-img">
+    <img src="images/profile.jpeg" alt="profile">
+  </div>
+</section>
+
+<section id="about" class="glass">
+  <h2>About Me</h2>
+
+  <p>
+    I am an aspiring Software Engineer currently pursuing B.Tech in Mechanical Engineering from NSUT, Delhi. 
+    I am deeply passionate about problem-solving and continuously improving my technical skills.
+  </p>
+
+  <p>
+    I have a strong foundation in Data Structures and Algorithms, with consistent practice that has helped 
+    me develop logical thinking and efficient problem-solving abilities. I enjoy tackling challenging problems 
+    and optimizing solutions for better performance.
+  </p>
+
+  <p>
+    My core interests lie in backend development and software engineering. I focus on writing clean, 
+    maintainable, and scalable code while following good development practices.
+  </p>
+
+  <p>
+    Alongside technical skills, I have developed leadership and teamwork abilities through my experience 
+    as a General Secretary, where I managed teams, coordinated events, and handled responsibilities 
+    effectively.
+  </p>
+
+  <p>
+    I am always eager to learn new technologies, take on challenges, and grow as a developer while 
+    contributing to meaningful and impactful projects.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-box">
+      <h3>Languages</h3>
+      <div class="tags">
+        <span>C++</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <h3>Frontend</h3>
+      <div class="tags">
+        <span>React.js</span>
+        <span>HTML</span>
+        <span>CSS</span>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <h3>Backend</h3>
+      <div class="tags">
+        <span>Node.js</span>
+        <span>Express.js</span>
+      </div>
+    </div>
+
+    <div class="skill-box">
+      <h3>Database</h3>
+      <div class="tags">
+        <span>MongoDB</span>
+        <span>MySQL</span>
+      </div>
+    </div>
+
+    <div class="skill-box">
+    <h3>Core Concepts</h3>
+      <div class="tags">
+      <span>DSA</span>
+      <span>OOP</span>
+      <span>DBMS</span>
+      <span>Operating System</span>
+    </div>
+</div>
+
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <!-- 🔥 AI Resume Analyzer -->
+    <div class="card" onclick="toggleDetails(this)">
+      <h3>AI Resume Analyzer <span class="arrow">▼</span></h3>
+      <p class="project-desc">
+        MERN-based application to analyze resumes and generate ATS scores using NLP.
+      </p>
+
+      <div class="project-details">
+        <ul>
+          <li>Built using MongoDB, Express.js, React.js, and Node.js</li>
+          <li>Implemented resume parsing and keyword extraction using NLP</li>
+          <li>Matched resumes with job descriptions for better alignment</li>
+          <li>Designed REST APIs for resume upload and analysis</li>
+          <li>Responsive UI with real-time feedback and recommendations</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 🔥 Weld Detector -->
+    <div class="card" onclick="toggleDetails(this)">
+      <h3>Weld Defect Detection System <span class="arrow">▼</span></h3>
+      <p class="project-desc">
+        YOLO-based system for detecting weld defects using computer vision.
+      </p>
+
+      <div class="project-details">
+        <ul>
+          <li>Built using YOLO (Ultralytics), PyTorch, and OpenCV</li>
+          <li>Detects bead irregularities, spatter, and porosity</li>
+          <li>Real-time bounding box detection with confidence scores</li>
+          <li>Threshold-based quality evaluation system</li>
+          <li>Optimized performance using CUDA (GPU acceleration)</li>
+          <li>CLI tool for automated input and output generation</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 🔥 Task Manager -->
+    <div class="card" onclick="toggleDetails(this)">
+      <h3>Task Manager Application <span class="arrow">▼</span></h3>
+      <p class="project-desc">
+        Full-stack task management app with CRUD functionality.
+      </p>
+
+      <div class="project-details">
+        <ul>
+          <li>Developed using Node.js, Express.js, and Vite</li>
+          <li>Implemented full CRUD operations</li>
+          <li>Designed REST APIs for task handling</li>
+          <li>Responsive frontend with optimized performance</li>
+          <li>Maintained state and data consistency</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleDetails(this)">
+      <h3>Todo List Application <span class="arrow">▼</span></h3>
+      <p class="project-desc">
+        Dynamic Todo app with full CRUD functionality.
+      </p>
+
+      <div class="project-details">
+        <ul>
+          <li>Implemented full CRUD operations with dynamic UI updates</li>
+          <li>Used DOM manipulation and event handling</li>
+          <li>Integrated LocalStorage for persistent data</li>
+          <li>Built modular and reusable functions</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleDetails(this)">
+      <h3>Text-to-Speech Converter <span class="arrow">▼</span></h3>
+      <p class="project-desc">
+        Browser-based speech synthesis application.
+      </p>
+
+      <div class="project-details">
+        <ul>
+          <li>Used JavaScript Speech Synthesis API</li>
+          <li>Implemented async event-driven architecture</li>
+          <li>Designed responsive UI</li>
+          <li>Maintained version control using Git</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" onclick="toggleDetails(this)">
+      <h3>Currency Converter <span class="arrow">▼</span></h3>
+      <p class="project-desc">
+        Real-time currency converter using APIs.
+      </p>
+
+      <div class="project-details">
+        <ul>
+          <li>Used REST APIs for live exchange rates</li>
+          <li>Handled asynchronous API calls</li>
+          <li>Optimized DOM updates for performance</li>
+          <li>Maintained separation of logic and UI</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="problem-solving">
+  <div class="container">
+    <h2>Problem Solving</h2>
+
+    <div class="ps-card">
+      <h3>Data Structures and Algorithms</h3>
+
+    <div class="ps-links">
+  <a href="https://leetcode.com/u/vaibhavv319/" target="_blank">LeetCode</a>
+  <a href="https://www.geeksforgeeks.org/profile/vaibhavd99c8" target="_blank">GeeksforGeeks</a>
+</div>
+
+      <p class="ps-desc">
+        Strong problem-solving skills with consistent practice on coding platforms.
+      </p>
+
+      <ul>
+        <li>Solved 250+ problems on LeetCode and GeeksforGeeks</li>
+        <li>Participated in coding contests to improve speed and accuracy</li>
+        <li>Worked on patterns like sliding window, recursion, and two pointers</li>
+        <li>Strong understanding of time and space complexity analysis</li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="glass">
+  <h2>Contact</h2>
+  <p>Email: vaibhavdelhi53@gmail.com</p>
+  <p>Phone: +91-8076266258</p>
+</section>
+
+<footer>
+  <p>© 2026 Vaibhav Singh</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
